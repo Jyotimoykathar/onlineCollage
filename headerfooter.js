@@ -73,7 +73,7 @@ class SpecialHeader extends HTMLElement {
           <div class="navbar-nav w-100">
             <div class="nav-item dropdown border">
               <a href="#" class="nav-link" data-toggle="dropdown"
-                >BVOC <i class="fa fa-angle-down float-right mt-1"></i
+                >BVOCCT COURSES<i class="fa fa-angle-down float-right mt-1"></i
               ></a>
               <div
                 class="dropdown-menu position-absolute bg-secondary border-0 rounded-0 w-100 m-0"
@@ -90,16 +90,19 @@ class SpecialHeader extends HTMLElement {
               </div>
             </div>
             <a href="echocardiography.html" class="nav-item nav-link"
-              >Echocardiography</a
+              >BVOCOP COURSES</a
             >
             <a href="adv_imaging_modalities.html" class="nav-item nav-link">
-              Adv Imaging Modalities</a
+              BVOCOT COURSES</a
             >
             <a href="./courses/surgery.html" class="nav-item nav-link"
-              >Basics of Surgery</a
+              >BVOFAD COURSES</a
             >
             <a href="./courses/angiography.html" class="nav-item nav-link"
-              >Angiography</a
+              >BVOMLT COURSES</a
+            >
+            <a href="./courses/angiography.html" class="nav-item nav-link"
+              >BVORAD COURSES</a
             >
           </div>
         </nav>
@@ -374,7 +377,7 @@ class CoursesHeader extends HTMLElement {
           <div class="navbar-nav w-100">
             <div class="nav-item dropdown border">
               <a href="#" class="nav-link" data-toggle="dropdown"
-                >BVOC <i class="fa fa-angle-down float-right mt-1"></i
+                >BVOCCT COURSES<i class="fa fa-angle-down float-right mt-1"></i
               ></a>
               <div
                 class="dropdown-menu position-absolute bg-secondary border-0 rounded-0 w-100 m-0"
@@ -390,17 +393,20 @@ class CoursesHeader extends HTMLElement {
                 >
               </div>
             </div>
-            <a href="echocardiography.html" class="nav-item nav-link"
-              >Echocardiography</a
+            <a href="./courses/bvocop/bvocop.html" class="nav-item nav-link"
+              >BVOCOP COURSES</a
             >
-            <a href="adv_imaging_modalities.html" class="nav-item nav-link">
-              Adv Imaging Modalities</a
+            <a href="./courses/bvocot/bvocot.html" class="nav-item nav-link">
+              BVOCOT COURSES</a
             >
             <a href="./courses/surgery.html" class="nav-item nav-link"
-              >Basics of Surgery</a
+              >BVOFAD COURSES</a
             >
             <a href="./courses/angiography.html" class="nav-item nav-link"
-              >Angiography</a
+              >BVOMALT COURSES</a
+            >
+            <a href="./courses/angiography.html" class="nav-item nav-link"
+              >BVORAD COURSES</a
             >
           </div>
         </nav>
@@ -414,9 +420,7 @@ class CoursesHeader extends HTMLElement {
             class="logo img-fluid d-block d-lg-none"
             alt="logo_image"
           />
-          <!-- <a href="" class="text-decoration-none d-block d-lg-none">
-            <h1 class="m-0"><span class="text-primary">E</span>COURSES</h1>
-          </a> -->
+          
           <button
             type="button"
             class="navbar-toggler"
