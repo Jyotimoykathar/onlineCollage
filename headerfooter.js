@@ -9,14 +9,13 @@ class SpecialHeader extends HTMLElement {
     <div class="container-fluid d-none d-lg-block">
       <div class="row align-items-center px-xl-5">
         <div class="col-lg-3">
+           <a href="" class="text-decoration-none">
           <img
-            src="./logo1.png "
-            class="logo img-fluid"
-            alt="logo_image"
-          />
-          <!-- <a href="" class="text-decoration-none">
-            <h1 class="m-0"><span class="text-primary">E</span>COURSES</h1>
-          </a> -->
+          src="./logo1.png "
+          class="logo img-fluid"
+          alt="logo_image"
+        />
+          </a>
         </div>
         <div class="col-lg-3 text-right">
           <div class="d-inline-flex align-items-center fs-6">
@@ -79,7 +78,7 @@ class SpecialHeader extends HTMLElement {
                 class="dropdown-menu position-absolute bg-secondary border-0 rounded-0 w-100 m-0"
               >
                 <a href="./courses/bvocct/adv_ECG .html" class="dropdown-item"
-                  >Advanced ECG</a
+                  >ADVANCED ECHOCARDIOGRAPHY TECHNIQUES</a
                 >
                 <a href="adv_Echocardio.html" class="dropdown-item"
                   >Adv Echocardiography</a
@@ -111,14 +110,14 @@ class SpecialHeader extends HTMLElement {
         <nav
           class="navbar navbar-expand-lg bg-light navbar-light py-lg-0 px-0"
         >
+          
+           <a href="" class="text-decoration-none d-block d-lg-none">
           <img
-            src="./logo1.png"
-            class="logo img-fluid d-block d-lg-none"
-            alt="logo_image"
-          />
-          <!-- <a href="" class="text-decoration-none d-block d-lg-none">
-            <h1 class="m-0"><span class="text-primary">E</span>COURSES</h1>
-          </a> -->
+          src="./logo1.png"
+          class="logo img-fluid d-block d-lg-none"
+          alt="logo_image"
+        />
+          </a>
           <button
             type="button"
             class="navbar-toggler"
@@ -223,16 +222,19 @@ class SpecialFooter extends HTMLElement {
                   ><i class="fa fa-angle-right mr-2"></i>BVOCCT</a
                 >
                 <a class="text-white mb-2" href="./courses/bvocop/bvocop.html"
-                  ><i class="fa fa-angle-right mr-2"></i>BVOCOP</a
+                  ><i class="fa fa-angle-right mr-2"></i>BVOCOP COURSES</a
                 >
                 <a class="text-white mb-2" href="#"
-                  ><i class="fa fa-angle-right mr-2"></i>BVOCOT</a
+                  ><i class="fa fa-angle-right mr-2"></i>BVOCOT COURSES</a
                 >
                 <a class="text-white mb-2" href="#"
-                  ><i class="fa fa-angle-right mr-2"></i>BVOFAD</a
+                  ><i class="fa fa-angle-right mr-2"></i>BVOFAD COURSES</a
                 >
                 <a class="text-white" href="#"
-                  ><i class="fa fa-angle-right mr-2"></i>BVORAD</a
+                  ><i class="fa fa-angle-right mr-2"></i>BVOMLT COURSES</a
+                >
+                <a class="text-white" href="#"
+                  ><i class="fa fa-angle-right mr-2"></i>BVORAD COURSES</a
                 >
 
               </div>
@@ -313,14 +315,14 @@ class CoursesHeader extends HTMLElement {
     <div class="container-fluid d-none d-lg-block">
       <div class="row align-items-center px-xl-5">
         <div class="col-lg-3">
+          
+           <a href="" class="text-decoration-none">
           <img
-            src="./logo1.png "
-            class="logo img-fluid"
-            alt="logo_image"
-          />
-          <!-- <a href="" class="text-decoration-none">
-            <h1 class="m-0"><span class="text-primary">E</span>COURSES</h1>
-          </a> -->
+          src="./logo1.png "
+          class="logo img-fluid"
+          alt="logo_image"
+        />
+          </a>
         </div>
         <div class="col-lg-3 text-right">
           <div class="d-inline-flex align-items-center fs-6">
@@ -382,10 +384,10 @@ class CoursesHeader extends HTMLElement {
               <div
                 class="dropdown-menu position-absolute bg-secondary border-0 rounded-0 w-100 m-0"
               >
-                <a href="./courses/bvocct/adv_ECG .html" class="dropdown-item"
+                <a href="./adv_ECG .html" class="dropdown-item"
                   >Advanced ECG</a
                 >
-                <a href="adv_Echocardio.html" class="dropdown-item"
+                <a href="./adv_Echocardio.html" class="dropdown-item"
                   >Adv Echocardiography</a
                 >
                 <a href="applied_Pathology.html" class="dropdown-item"
@@ -415,11 +417,13 @@ class CoursesHeader extends HTMLElement {
         <nav
           class="navbar navbar-expand-lg bg-light navbar-light py-lg-0 px-0"
         >
-          <img
-            src="./logo1.png"
-            class="logo img-fluid d-block d-lg-none"
-            alt="logo_image"
-          />
+        <a href="" class="text-decoration-none d-block d-lg-none">
+        <img
+        src="./logo1.png"
+        class="logo img-fluid d-block d-lg-none"
+        alt="logo_image"
+      />
+        </a>
           
           <button
             type="button"
@@ -522,22 +526,22 @@ class CoursesFooter extends HTMLElement {
               </h5>
               <div class="d-flex flex-column justify-content-start">
                 <a class="text-white mb-2" href="./bvocct.html"
-                  ><i class="fa fa-angle-right mr-2"></i>BVOCCT</a
+                  ><i class="fa fa-angle-right mr-2"></i>BVOCCT COURSES</a
                 >
                 <a class="text-white mb-2" href="#"
-                  ><i class="fa fa-angle-right mr-2"></i>BVOCOP</a
+                  ><i class="fa fa-angle-right mr-2"></i>BVOCOP COURSES</a
                 >
                 <a class="text-white mb-2" href="#"
-                  ><i class="fa fa-angle-right mr-2"></i>BVOCOT</a
+                  ><i class="fa fa-angle-right mr-2"></i>BVOCOT COURSES</a
                 >
                 <a class="text-white mb-2" href="#"
-                  ><i class="fa fa-angle-right mr-2"></i>BVOFAD</a
+                  ><i class="fa fa-angle-right mr-2"></i>BVOFAD COURSES</a
                 >
                 <a class="text-white" href="#"
-                  ><i class="fa fa-angle-right mr-2"></i>BVOMLT</a
+                  ><i class="fa fa-angle-right mr-2"></i>BVOMLT COURSES</a
                 >
                 <a class="text-white" href="#"
-                  ><i class="fa fa-angle-right mr-2"></i>BVORAD</a
+                  ><i class="fa fa-angle-right mr-2"></i>BVORAD COURSES</a
                 >
               </div>
             </div>
