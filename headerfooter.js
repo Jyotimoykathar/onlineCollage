@@ -2,14 +2,14 @@
 /******COMMON HEADER FOOTER SECTION*******/
 /****************************************/
 // Header section start
-class SpecialHeader extends HTMLElement {
+class NavHeader extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     ${/*Topbar Start*/ ""}
     <div class="container-fluid d-none d-lg-block">
       <div class="row align-items-center px-xl-5">
         <div class="col-lg-3">
-           <a href="" class="text-decoration-none">
+           <a href="./index.html" class="text-decoration-none">
           <img
           src="./logo1.png "
           class="logo img-fluid"
@@ -70,24 +70,30 @@ class SpecialHeader extends HTMLElement {
           style="width: calc(100% - 30px); z-index: 9"
         >
           <div class="navbar-nav w-100">
-            <div class="nav-item dropdown border">
-              <a href="#" class="nav-link" data-toggle="dropdown"
-                >BVOCCT COURSES<i class="fa fa-angle-down float-right mt-1"></i
-              ></a>
-              <div
-                class="dropdown-menu position-absolute bg-secondary border-0 rounded-0 w-100 m-0"
+          ${/*<div class="nav-item dropdown border">*/ ""}
+            
+              <a href="./courses/bvocct/bvocct.html" class=" nav-item nav-link"
+                >BVOCCT COURSES
+                ${/*<i class="fa fa-angle-down float-right mt-1"></i> */ ""}
+                
+              </a>
+              ${
+                /*<div
+              class="dropdown-menu position-absolute bg-secondary border-0 rounded-0 w-100 m-0"
+            >
+              <a href="./courses/bvocct/adv_ECG .html" class="dropdown-item"
+                >ADVANCED ECHOCARDIOGRAPHY TECHNIQUES</a
               >
-                <a href="./courses/bvocct/adv_ECG .html" class="dropdown-item"
-                  >ADVANCED ECHOCARDIOGRAPHY TECHNIQUES</a
-                >
-                <a href="adv_Echocardio.html" class="dropdown-item"
-                  >Adv Echocardiography</a
-                >
-                <a href="applied_Pathology.html" class="dropdown-item"
-                  >Applied Pathology</a
-                >
-              </div>
-            </div>
+              <a href="adv_Echocardio.html" class="dropdown-item"
+                >Adv Echocardiography</a
+              >
+              <a href="applied_Pathology.html" class="dropdown-item"
+                >Applied Pathology</a
+              >
+            </div>*/ ""
+              }
+            ${/*</div>*/ ""}  
+            
             <a href="echocardiography.html" class="nav-item nav-link"
               >BVOCOP COURSES</a
             >
@@ -131,14 +137,14 @@ class SpecialHeader extends HTMLElement {
             id="navbarCollapse"
           >
             <div class="navbar-nav py-0">
-              <a href="index.html" class="nav-item nav-link active">Home</a>
-              <a href="about.html" class="nav-item nav-link">About</a>
-              <a href="course.html" class="nav-item nav-link">Courses</a>
-              <a href="teacher.html" class="nav-item nav-link">Teachers</a>
+              <a href="index.html" class="nav-item nav-link major-nav">Home</a>
+              <a href="about.html" class="nav-item nav-link major-nav">About</a>
+              <a href="course.html" class="nav-item nav-link major-nav">Courses</a>
+              <a href="teacher.html" class="nav-item nav-link major-nav">Teachers</a>
               <div class="nav-item dropdown">
                 <a
                   href="#"
-                  class="nav-link dropdown-toggle"
+                  class="nav-link dropdown-toggle major-nav"
                   data-toggle="dropdown"
                   >Blog</a
                 >
@@ -147,7 +153,7 @@ class SpecialHeader extends HTMLElement {
                   <a href="single.html" class="dropdown-item">Blog Detail</a>
                 </div>
               </div>
-              <a href="contact.html" class="nav-item nav-link">Contact</a>
+              <a href="contact.html" class="nav-item nav-link major-nav">Contact</a>
             </div>
             <a
               class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block"
@@ -163,10 +169,10 @@ class SpecialHeader extends HTMLElement {
     `;
   }
 }
-customElements.define("special-header", SpecialHeader);
+customElements.define("nav-header", NavHeader);
 
 // Footer-section start
-class SpecialFooter extends HTMLElement {
+class MainFooter extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     
@@ -219,7 +225,7 @@ class SpecialFooter extends HTMLElement {
               </h5>
               <div class="d-flex flex-column justify-content-start">
                 <a class="text-white mb-2" href="./courses/bvocct/bvocct.html"
-                  ><i class="fa fa-angle-right mr-2"></i>BVOCCT</a
+                  ><i class="fa fa-angle-right mr-2"></i>BVOCCT COURSES</a
                 >
                 <a class="text-white mb-2" href="./courses/bvocop/bvocop.html"
                   ><i class="fa fa-angle-right mr-2"></i>BVOCOP COURSES</a
@@ -302,7 +308,7 @@ class SpecialFooter extends HTMLElement {
          `;
   }
 }
-customElements.define("special-footer", SpecialFooter);
+customElements.define("main-footer", MainFooter);
 
 /***********************/
 /******COURSES SECTION*******/
@@ -316,7 +322,7 @@ class CoursesHeader extends HTMLElement {
       <div class="row align-items-center px-xl-5">
         <div class="col-lg-3">
           
-           <a href="" class="text-decoration-none">
+           <a href="../../index.html" class="text-decoration-none">
           <img
           src="./logo1.png "
           class="logo img-fluid"
@@ -378,22 +384,25 @@ class CoursesHeader extends HTMLElement {
         >
           <div class="navbar-nav w-100">
             <div class="nav-item dropdown border">
-              <a href="#" class="nav-link" data-toggle="dropdown"
+              <a href="#" class="nav-link" ${/*data-toggle="dropdown"*/ ""} 
                 >BVOCCT COURSES<i class="fa fa-angle-down float-right mt-1"></i
               ></a>
-              <div
-                class="dropdown-menu position-absolute bg-secondary border-0 rounded-0 w-100 m-0"
+              ${
+                /*<div
+              class="dropdown-menu position-absolute bg-secondary border-0 rounded-0 w-100 m-0"
+            >
+              <a href="./adv_ECG .html" class="dropdown-item"
+                >Advanced ECG</a
               >
-                <a href="./adv_ECG .html" class="dropdown-item"
-                  >Advanced ECG</a
-                >
-                <a href="./adv_Echocardio.html" class="dropdown-item"
-                  >Adv Echocardiography</a
-                >
-                <a href="applied_Pathology.html" class="dropdown-item"
-                  >Applied Pathology</a
-                >
-              </div>
+              <a href="./adv_Echocardio.html" class="dropdown-item"
+                >Adv Echocardiography</a
+              >
+              <a href="applied_Pathology.html" class="dropdown-item"
+                >Applied Pathology</a
+              >
+            </div>*/ ""
+              }
+              
             </div>
             <a href="./courses/bvocop/bvocop.html" class="nav-item nav-link"
               >BVOCOP COURSES</a
@@ -438,7 +447,7 @@ class CoursesHeader extends HTMLElement {
             id="navbarCollapse"
           >
             <div class="navbar-nav py-0">
-              <a href="../../index.html" class="nav-item nav-link active">Home</a>
+              <a href="../../index.html" class="nav-item nav-link">Home</a>
               <a href="../../about.html" class="nav-item nav-link">About</a>
               <a href="../../course.html" class="nav-item nav-link">Courses</a>
               <a href="../../teacher.html" class="nav-item nav-link">Teachers</a>
@@ -609,3 +618,11 @@ class CoursesFooter extends HTMLElement {
   }
 }
 customElements.define("courses-footer", CoursesFooter);
+
+/******adding active class on current page*******/
+document.querySelectorAll(".major-nav").forEach((link) => {
+  // console.log(link.href);
+  if (link.href === window.location.href) {
+    link.classList.add("active");
+  }
+});
