@@ -322,7 +322,7 @@ class CoursesHeader extends HTMLElement {
       <div class="row align-items-center px-xl-5">
         <div class="col-lg-3">
           
-           <a href="../../index.html" class="text-decoration-none">
+           <a href="../index.html" class="text-decoration-none">
           <img
           src="./logo1.png "
           class="logo img-fluid"
