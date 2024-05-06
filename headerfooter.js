@@ -496,7 +496,7 @@ class CoursesFooter extends HTMLElement {
                 <a class="text-white mb-2" href="bvocDT.html"
                   ><i class="fa fa-angle-right mr-2"></i>B.voc in DT</a
                 >
-                <a class="text-white" href="#"
+                <a class="text-white" href="bvocSD.html"
                   ><i class="fa fa-angle-right mr-2"></i>B.voc in SD</a
                 >
                 <a class="text-white" href="#"
