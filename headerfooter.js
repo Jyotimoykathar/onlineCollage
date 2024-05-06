@@ -60,7 +60,7 @@ class NavHeader extends HTMLElement {
           style="height: 67px; padding: 0 30px"
         >
           <h5 class="text-primary m-0">
-            <i class="fa fa-book-open mr-2"></i>Subjects
+            <i class="fa fa-book-open mr-2"></i>Courses
           </h5>
           <i class="fa fa-angle-down text-primary"></i>
         </a>
@@ -77,21 +77,6 @@ class NavHeader extends HTMLElement {
                 ${/*<i class="fa fa-angle-down float-right mt-1"></i> */ ""}
                 
               </a>
-              ${
-                /*<div
-              class="dropdown-menu position-absolute bg-secondary border-0 rounded-0 w-100 m-0"
-            >
-              <a href="./courses/bvocct/adv_ECG .html" class="dropdown-item"
-                >ADVANCED ECHOCARDIOGRAPHY TECHNIQUES</a
-              >
-              <a href="adv_Echocardio.html" class="dropdown-item"
-                >Adv Echocardiography</a
-              >
-              <a href="applied_Pathology.html" class="dropdown-item"
-                >Applied Pathology</a
-              >
-            </div>*/ ""
-              }
             ${/*</div>*/ ""}  
             
             <a href="echocardiography.html" class="nav-item nav-link"
@@ -139,20 +124,9 @@ class NavHeader extends HTMLElement {
             <div class="navbar-nav py-0">
               <a href="index.html" class="nav-item nav-link major-nav">Home</a>
               <a href="about.html" class="nav-item nav-link major-nav">About</a>
+              <a href="gallery.html" class="nav-item nav-link major-nav">Gallery</a>
               <a href="course.html" class="nav-item nav-link major-nav">Courses</a>
               <a href="teacher.html" class="nav-item nav-link major-nav">Teachers</a>
-              <div class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="nav-link dropdown-toggle major-nav"
-                  data-toggle="dropdown"
-                  >Blog</a
-                >
-                <div class="dropdown-menu rounded-0 m-0">
-                  <a href="blog.html" class="dropdown-item">Blog List</a>
-                  <a href="single.html" class="dropdown-item">Blog Detail</a>
-                </div>
-              </div>
               <a href="contact.html" class="nav-item nav-link major-nav">Contact</a>
             </div>
             <a
@@ -373,7 +347,7 @@ class CoursesHeader extends HTMLElement {
           style="height: 67px; padding: 0 30px"
         >
           <h5 class="text-primary m-0">
-            <i class="fa fa-book-open mr-2"></i>Subjects
+            <i class="fa fa-book-open mr-2"></i>Courses
           </h5>
           <i class="fa fa-angle-down text-primary"></i>
         </a>
@@ -387,21 +361,6 @@ class CoursesHeader extends HTMLElement {
               <a href="#" class="nav-link" ${/*data-toggle="dropdown"*/ ""} 
                 >BVOCCT COURSES<i class="fa fa-angle-down float-right mt-1"></i
               ></a>
-              ${
-                /*<div
-              class="dropdown-menu position-absolute bg-secondary border-0 rounded-0 w-100 m-0"
-            >
-              <a href="./adv_ECG .html" class="dropdown-item"
-                >Advanced ECG</a
-              >
-              <a href="./adv_Echocardio.html" class="dropdown-item"
-                >Adv Echocardiography</a
-              >
-              <a href="applied_Pathology.html" class="dropdown-item"
-                >Applied Pathology</a
-              >
-            </div>*/ ""
-              }
               
             </div>
             <a href="./courses/bvocop/bvocop.html" class="nav-item nav-link"
@@ -449,20 +408,11 @@ class CoursesHeader extends HTMLElement {
             <div class="navbar-nav py-0">
               <a href="../../index.html" class="nav-item nav-link">Home</a>
               <a href="../../about.html" class="nav-item nav-link">About</a>
+              <a href="../../gallery.html" class="nav-item nav-link">Gallery</a>
+
               <a href="../../course.html" class="nav-item nav-link">Courses</a>
               <a href="../../teacher.html" class="nav-item nav-link">Teachers</a>
-              <div class="nav-item dropdown">
-                <a
-                  href="#"
-                  class="nav-link dropdown-toggle"
-                  data-toggle="dropdown"
-                  >Blog</a
-                >
-                <div class="dropdown-menu rounded-0 m-0">
-                  <a href="../../blog.html" class="dropdown-item">Blog List</a>
-                  <a href="single.html" class="dropdown-item">Blog Detail</a>
-                </div>
-              </div>
+              
               <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
             <a
@@ -534,23 +484,23 @@ class CoursesFooter extends HTMLElement {
                 Our Courses
               </h5>
               <div class="d-flex flex-column justify-content-start">
-                <a class="text-white mb-2" href="./bvocct.html"
-                  ><i class="fa fa-angle-right mr-2"></i>BVOCCT COURSES</a
+                <a class="text-white mb-2" href="./bvocMLT.html"
+                  ><i class="fa fa-angle-right mr-2"></i>B.voc in MLT</a
                 >
-                <a class="text-white mb-2" href="#"
-                  ><i class="fa fa-angle-right mr-2"></i>BVOCOP COURSES</a
+                <a class="text-white mb-2" href="bvocRMI.html"
+                  ><i class="fa fa-angle-right mr-2"></i>B.voc in RMI</a
                 >
-                <a class="text-white mb-2" href="#"
-                  ><i class="fa fa-angle-right mr-2"></i>BVOCOT COURSES</a
+                <a class="text-white mb-2" href="bvocOTT.html"
+                  ><i class="fa fa-angle-right mr-2"></i>B.voc in OTT</a
                 >
-                <a class="text-white mb-2" href="#"
-                  ><i class="fa fa-angle-right mr-2"></i>BVOFAD COURSES</a
-                >
-                <a class="text-white" href="#"
-                  ><i class="fa fa-angle-right mr-2"></i>BVOMLT COURSES</a
+                <a class="text-white mb-2" href="bvocDT.html"
+                  ><i class="fa fa-angle-right mr-2"></i>B.voc in DT</a
                 >
                 <a class="text-white" href="#"
-                  ><i class="fa fa-angle-right mr-2"></i>BVORAD COURSES</a
+                  ><i class="fa fa-angle-right mr-2"></i>B.voc in SD</a
+                >
+                <a class="text-white" href="#"
+                  ><i class="fa fa-angle-right mr-2"></i>B.voc in HTM</a
                 >
               </div>
             </div>
