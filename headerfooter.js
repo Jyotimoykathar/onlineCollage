@@ -72,24 +72,24 @@ class NavHeader extends HTMLElement {
           <div class="navbar-nav w-100">
           ${/*<div class="nav-item dropdown border">*/ ""}
             
-              <a href="./courses/bvocct/bvocct.html" class=" nav-item nav-link"
-                >BVOCCT COURSES
+              <a href="./courses/bvocMLT.html" class=" nav-item nav-link"
+                >B.Voc in MLT
                 ${/*<i class="fa fa-angle-down float-right mt-1"></i> */ ""}
                 
               </a>
             ${/*</div>*/ ""}  
             
-            <a href="echocardiography.html" class="nav-item nav-link"
-              >BVOCOP COURSES</a
+            <a href="./courses/bvocRMI.html" class="nav-item nav-link"
+              >B.Voc in RMI</a
             >
-            <a href="adv_imaging_modalities.html" class="nav-item nav-link">
-              BVOCOT COURSES</a
+            <a href="./courses/bvocOTT.html" class="nav-item nav-link">
+              B.Voc in OTT</a
             >
-            <a href="./courses/surgery.html" class="nav-item nav-link"
-              >BVOFAD COURSES</a
+            <a href="./courses/bvocDT.html" class="nav-item nav-link"
+              >B.Voc in DT</a
             >
-            <a href="./courses/angiography.html" class="nav-item nav-link"
-              >BVOMLT COURSES</a
+            <a href="./courses/bvocSD.html" class="nav-item nav-link"
+              >B.Voc in SD</a
             >
             <a href="./courses/angiography.html" class="nav-item nav-link"
               >BVORAD COURSES</a
@@ -198,20 +198,20 @@ class MainFooter extends HTMLElement {
                 Our Courses
               </h5>
               <div class="d-flex flex-column justify-content-start">
-                <a class="text-white mb-2" href="./courses/bvocct/bvocct.html"
-                  ><i class="fa fa-angle-right mr-2"></i>BVOCCT COURSES</a
+                <a class="text-white mb-2" href="./courses/bvocMLT.html"
+                  ><i class="fa fa-angle-right mr-2"></i>B.Voc in MLT</a
                 >
-                <a class="text-white mb-2" href="./courses/bvocop/bvocop.html"
-                  ><i class="fa fa-angle-right mr-2"></i>BVOCOP COURSES</a
+                <a class="text-white mb-2" href="./courses/bvocRMI.html"
+                  ><i class="fa fa-angle-right mr-2"></i>B.Voc in RMI</a
                 >
-                <a class="text-white mb-2" href="#"
-                  ><i class="fa fa-angle-right mr-2"></i>BVOCOT COURSES</a
+                <a class="text-white mb-2" href="./courses/bvocOTT.html"
+                  ><i class="fa fa-angle-right mr-2"></i>B.Voc in OTT</a
                 >
-                <a class="text-white mb-2" href="#"
-                  ><i class="fa fa-angle-right mr-2"></i>BVOFAD COURSES</a
+                <a class="text-white mb-2" href=".courses/bvocDT.html"
+                  ><i class="fa fa-angle-right mr-2"></i>B.Voc in DT</a
                 >
-                <a class="text-white" href="#"
-                  ><i class="fa fa-angle-right mr-2"></i>BVOMLT COURSES</a
+                <a class="text-white" href="./courses/bvocSD.html"
+                  ><i class="fa fa-angle-right mr-2"></i>B.Voc in SD</a
                 >
                 <a class="text-white" href="#"
                   ><i class="fa fa-angle-right mr-2"></i>BVORAD COURSES</a
