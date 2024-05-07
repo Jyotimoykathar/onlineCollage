@@ -91,8 +91,8 @@ class NavHeader extends HTMLElement {
             <a href="./courses/bvocSD.html" class="nav-item nav-link"
               >B.Voc in SD</a
             >
-            <a href="./courses/angiography.html" class="nav-item nav-link"
-              >BVORAD COURSES</a
+            <a href="./courses/bvocHM.html" class="nav-item nav-link"
+              >B.Voc in HM</a
             >
           </div>
         </nav>
@@ -213,8 +213,8 @@ class MainFooter extends HTMLElement {
                 <a class="text-white" href="./courses/bvocSD.html"
                   ><i class="fa fa-angle-right mr-2"></i>B.Voc in SD</a
                 >
-                <a class="text-white" href="#"
-                  ><i class="fa fa-angle-right mr-2"></i>BVORAD COURSES</a
+                <a class="text-white" href="./courses/bvocHM.html"
+                  ><i class="fa fa-angle-right mr-2"></i>B.voc in HM</a
                 >
 
               </div>
