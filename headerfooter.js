@@ -102,7 +102,7 @@ class NavHeader extends HTMLElement {
           class="navbar navbar-expand-lg bg-light navbar-light py-lg-0 px-0"
         >
           
-           <a href="./index.html" class="text-decoration-none d-block d-lg-none">
+           <a href="index.html" class="text-decoration-none d-block d-lg-none">
           <img
           src="./logo1.png"
           class="logo img-fluid d-block d-lg-none"
