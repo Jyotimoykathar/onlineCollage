@@ -169,7 +169,7 @@ class MainFooter extends HTMLElement {
                 <i class="fa fa-map-marker-alt mr-2"></i>Rangia Town,
                 Kamrup(Rural), Assam
               </p>
-              <p><i class="fa fa-phone-alt mr-2"></i>+91 7002055137</p>
+              <p><i class="fa fa-phone-alt mr-2"></i>+91 8134020455, +91 8134021040</p>
               <p><i class="fa fa-envelope mr-2"></i>indo-asian.com</p>
               <div class="d-flex justify-content-start mt-4">
                 <a class="btn btn-outline-light btn-square mr-2" href="#"
@@ -256,8 +256,7 @@ class MainFooter extends HTMLElement {
       <div class="row">
         <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
           <p class="m-0 text-white">
-            &copy; <a href="#">Indo Asian Group of Institutions</a>. All Rights
-            Reserved.
+            &copy; <a href="#">Indo Asian Group of Institutions</a>. 
           </p>
         </div>
         <div class="col-lg-6 text-center text-md-right">
@@ -457,7 +456,7 @@ class CoursesFooter extends HTMLElement {
                 <i class="fa fa-map-marker-alt mr-2"></i>Rangia Town,
                 Kamrup(Rural), Assam
               </p>
-              <p><i class="fa fa-phone-alt mr-2"></i>+91 8134020455,8134021040</p>
+              <p><i class="fa fa-phone-alt mr-2"></i>+91 8134020455, +91 8134021040</p>
               <p><i class="fa fa-envelope mr-2"></i>indo-asian.com</p>
               <div class="d-flex justify-content-start mt-4">
                 <a class="btn btn-outline-light btn-square mr-2" href="#"
@@ -543,8 +542,7 @@ class CoursesFooter extends HTMLElement {
       <div class="row">
         <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
           <p class="m-0 text-white">
-            &copy; <a href="#">Indo Asian Group of Institutions</a>. All Rights
-            Reserved.
+            &copy; <a href="#">Indo Asian Group of Institutions</a> 
           </p>
         </div>
         <div class="col-lg-6 text-center text-md-right">
