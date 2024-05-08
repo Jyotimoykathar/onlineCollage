@@ -327,8 +327,8 @@ class CoursesHeader extends HTMLElement {
             <i class="fa fa-2x fa-phone text-primary mr-3"></i>
             <div class="text-left">
               <h6 class="font-weight-semi-bold mb-1">Call Us</h6>
-              <small>+91 7002055137</small>,
-              <small>+91 9436216996</small>
+              <small>+91 8134020455</small>,
+              <small>+91 8134021040</small>
             </div>
           </div>
         </div>
@@ -358,25 +358,27 @@ class CoursesHeader extends HTMLElement {
         >
           <div class="navbar-nav w-100">
             <div class="nav-item dropdown border">
-              <a href="#" class="nav-link" ${/*data-toggle="dropdown"*/ ""} 
-                >BVOCCT COURSES<i class="fa fa-angle-down float-right mt-1"></i
+              <a href="bvocMLT.html" class="nav-link" ${
+                /*data-toggle="dropdown"*/ ""
+              } 
+                >B.Voc in MLT<i class="fa fa-angle-down float-right mt-1"></i
               ></a>
               
             </div>
-            <a href="./courses/bvocop/bvocop.html" class="nav-item nav-link"
-              >BVOCOP COURSES</a
+            <a href="bvocRMI.html" class="nav-item nav-link"
+              >B.Voc in RMI</a
             >
-            <a href="./courses/bvocot/bvocot.html" class="nav-item nav-link">
-              BVOCOT COURSES</a
+            <a href="bvocOTT.html" class="nav-item nav-link">
+            B.Voc in OTT</a
             >
-            <a href="./courses/surgery.html" class="nav-item nav-link"
-              >BVOFAD COURSES</a
+            <a href="bvocDT.html" class="nav-item nav-link"
+              >B.Voc in DT</a
             >
-            <a href="./courses/angiography.html" class="nav-item nav-link"
-              >BVOMALT COURSES</a
+            <a href="bvocSD.html" class="nav-item nav-link"
+              >B.Voc in SD</a
             >
-            <a href="./courses/angiography.html" class="nav-item nav-link"
-              >BVORAD COURSES</a
+            <a href="bvocHM.html" class="nav-item nav-link"
+              >B.Voc in HTM</a
             >
           </div>
         </nav>
@@ -455,7 +457,7 @@ class CoursesFooter extends HTMLElement {
                 <i class="fa fa-map-marker-alt mr-2"></i>Rangia Town,
                 Kamrup(Rural), Assam
               </p>
-              <p><i class="fa fa-phone-alt mr-2"></i>+91 7002055137</p>
+              <p><i class="fa fa-phone-alt mr-2"></i>+91 8134020455,8134021040</p>
               <p><i class="fa fa-envelope mr-2"></i>indo-asian.com</p>
               <div class="d-flex justify-content-start mt-4">
                 <a class="btn btn-outline-light btn-square mr-2" href="#"
