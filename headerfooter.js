@@ -40,8 +40,8 @@ class NavHeader extends HTMLElement {
             <i class="fa fa-2x fa-phone text-primary mr-3"></i>
             <div class="text-left">
               <h6 class="font-weight-semi-bold mb-1">Call Us</h6>
-              <small>+91 7002055137</small>,
-              <small>+91 9436216996</small>
+              <small>+91 8134020455</small>,
+              <small>+91 8134021040</small>
             </div>
           </div>
         </div>
