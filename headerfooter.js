@@ -414,7 +414,7 @@ class CoursesHeader extends HTMLElement {
               <a href="../../course.html" class="nav-item nav-link">Courses</a>
               <a href="../../teacher.html" class="nav-item nav-link">Teachers</a>
               
-              <a href="contact.html" class="nav-item nav-link">Contact</a>
+              <a href="../../contact.html" class="nav-item nav-link">Contact</a>
             </div>
             <a
               class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block"
