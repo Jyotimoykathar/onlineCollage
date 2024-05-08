@@ -92,7 +92,7 @@ class NavHeader extends HTMLElement {
               >B.Voc in SD</a
             >
             <a href="./courses/bvocHM.html" class="nav-item nav-link"
-              >B.Voc in HM</a
+              >B.Voc in HTM</a
             >
           </div>
         </nav>
@@ -214,7 +214,7 @@ class MainFooter extends HTMLElement {
                   ><i class="fa fa-angle-right mr-2"></i>B.Voc in SD</a
                 >
                 <a class="text-white" href="./courses/bvocHM.html"
-                  ><i class="fa fa-angle-right mr-2"></i>B.voc in HM</a
+                  ><i class="fa fa-angle-right mr-2"></i>B.voc in HTM</a
                 >
 
               </div>
