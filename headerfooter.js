@@ -356,14 +356,14 @@ class CoursesHeader extends HTMLElement {
           style="width: calc(100% - 30px); z-index: 9"
         >
           <div class="navbar-nav w-100">
-            <div class="nav-item dropdown border">
-              <a href="bvocMLT.html" class="nav-link" ${
-                /*data-toggle="dropdown"*/ ""
-              } 
-                >B.Voc in MLT<i class="fa fa-angle-down float-right mt-1"></i
-              ></a>
-              
-            </div>
+          <div class="nav-item dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown">BVOC <i class="fa fa-angle-down float-right mt-1"></i></a>
+          <div class="dropdown-menu position-absolute bg-secondary border-0 rounded-0 w-100 m-0">
+              <a href="" class="dropdown-item"> In MLT</a>
+              <a href="" class="dropdown-item"> In RMI</a>
+              <a href="" class="dropdown-item">In OTT</a>
+          </div>
+      </div>
             <a href="bvocRMI.html" class="nav-item nav-link"
               >B.Voc in RMI</a
             >
