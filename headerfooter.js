@@ -72,28 +72,34 @@ class NavHeader extends HTMLElement {
           <div class="navbar-nav w-100">
           ${/*<div class="nav-item dropdown border">*/ ""}
             
-              <a href="./courses/bvocMLT.html" class=" nav-item nav-link"
-                >B.Voc in MLT
-                ${/*<i class="fa fa-angle-down float-right mt-1"></i> */ ""}
-                
-              </a>
-            ${/*</div>*/ ""}  
-            
-            <a href="./courses/bvocRMI.html" class="nav-item nav-link"
-              >B.Voc in RMI</a
-            >
-            <a href="./courses/bvocOTT.html" class="nav-item nav-link">
-              B.Voc in OTT</a
-            >
-            <a href="./courses/bvocDT.html" class="nav-item nav-link"
-              >B.Voc in DT</a
-            >
-            <a href="./courses/bvocSD.html" class="nav-item nav-link"
-              >B.Voc in SD</a
-            >
-            <a href="./courses/bvocHM.html" class="nav-item nav-link"
-              >B.Voc in HTM</a
-            >
+          ${/*B.Voc section start*/ ""}
+          <div class="nav-item dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown">B.VOC <i class="fa fa-angle-down float-right mt-1"></i></a>
+          <div class="dropdown-menu position-absolute bg-secondary border-0 rounded-0 w-100 m-0 text-center">
+              <a href="./courses/bvocMLT.html" class="dropdown-item nav-link"> In MLT</a>
+              <a href="./courses/bvocRMI.html" class="dropdown-item nav-link"> In RMI</a>
+              <a href="./courses/bvocOTT.html" class="dropdown-item nav-link">In OTT</a>
+              <a href="./courses/bvocDT.html" class="dropdown-item nav-link">In DT</a>
+              <a href="./courses/bvocSD.html" class="dropdown-item nav-link">In SD</a>
+              <a href="./courses/bvocHM.html" class="dropdown-item nav-link">In HTM</a>
+            </div>
+          </div>
+
+          ${/*Diploma section start*/ ""}
+      <div class="nav-item dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown">DIPLOMA <i class="fa fa-angle-down float-right mt-1"></i></a>
+          <div class="dropdown-menu position-absolute bg-secondary   border-0 rounded-0 w-100 m-0 text-center">
+            <a href="./courses/diplomaDT.html" class="nav-item nav-link"
+             >Diploma in DT</a>
+            <a href="./courses/diplomaMLT.html" class="nav-item nav-link"
+             >Diploma in MLT</a>
+             <a href="./courses/diplomaOTT.html" class="nav-item nav-link"
+             >Diploma in OTT</a>
+             <a href="./courses/diplomaRMI.html" class="nav-item nav-link"
+             >Diploma in RMI</a>
+          </div>
+      </div>
+      ${/*Diploma section end*/ ""}
           </div>
         </nav>
       </div>
@@ -356,29 +362,37 @@ class CoursesHeader extends HTMLElement {
           style="width: calc(100% - 30px); z-index: 9"
         >
           <div class="navbar-nav w-100">
+
+          ${/*B.Voc section start*/ ""}
           <div class="nav-item dropdown">
-          <a href="#" class="nav-link" data-toggle="dropdown">BVOC <i class="fa fa-angle-down float-right mt-1"></i></a>
-          <div class="dropdown-menu position-absolute bg-secondary border-0 rounded-0 w-100 m-0">
-              <a href="" class="dropdown-item"> In MLT</a>
-              <a href="" class="dropdown-item"> In RMI</a>
-              <a href="" class="dropdown-item">In OTT</a>
+          <a href="#" class="nav-link" data-toggle="dropdown">B.VOC <i class="fa fa-angle-down float-right mt-1"></i></a>
+          <div class="dropdown-menu position-absolute bg-secondary border-0 rounded-0 w-100 m-0 text-center">
+              <a href="./bvocMLT.html" class="dropdown-item nav-link"> In MLT</a>
+              <a href="./bvocRMI.html" class="dropdown-item nav-link"> In RMI</a>
+              <a href="./bvocOTT.html" class="dropdown-item nav-link">In OTT</a>
+              <a href="./bvocDT.html" class="dropdown-item nav-link">In DT</a>
+              <a href="./bvocSD.html" class="dropdown-item nav-link">In SD</a>
+              <a href="./bvocHM.html" class="dropdown-item nav-link">In HTM</a>
           </div>
       </div>
-            <a href="bvocRMI.html" class="nav-item nav-link"
-              >B.Voc in RMI</a
-            >
-            <a href="bvocOTT.html" class="nav-item nav-link">
-            B.Voc in OTT</a
-            >
-            <a href="bvocDT.html" class="nav-item nav-link"
-              >B.Voc in DT</a
-            >
-            <a href="bvocSD.html" class="nav-item nav-link"
-              >B.Voc in SD</a
-            >
-            <a href="bvocHM.html" class="nav-item nav-link"
-              >B.Voc in HTM</a
-            >
+
+      ${/*Diploma section start*/ ""}
+      <div class="nav-item dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown">DIPLOMA <i class="fa fa-angle-down float-right mt-1"></i></a>
+          <div class="dropdown-menu position-absolute bg-secondary   border-0 rounded-0 w-100 m-0 text-center">
+            <a href="diplomaDT.html" class="nav-item nav-link"
+             >Diploma in DT</a>
+            <a href="diplomaMLT.html" class="nav-item nav-link"
+             >Diploma in MLT</a>
+             <a href="diplomaOTT.html" class="nav-item nav-link"
+             >Diploma in OTT</a>
+             <a href="diplomaRMI.html" class="nav-item nav-link"
+             >Diploma in RMI</a>
+          </div>
+      </div>
+
+            
+            
           </div>
         </nav>
       </div>
