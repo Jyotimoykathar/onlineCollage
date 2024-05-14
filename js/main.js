@@ -43,13 +43,25 @@
   });
 })(jQuery);
 
-// Smtpjs.com email service
-Email.send({
-  Host: "smtp.elasticemail.com",
-  Username: "username",
-  Password: "password",
-  To: "them@website.com",
-  From: "you@isp.com",
-  Subject: "This is the subject",
-  Body: "And this is the body",
-}).then((message) => alert(message));
+// email service
+function sendMail() {
+  let params = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    message: document.getElementById("message").value,
+  };
+
+  const serviceID = "service_bjbl52r";
+  const templateID = "template_7boeaqr";
+
+  emailjs
+    .send(serviceID, templateID, params)
+    .then((res) => {
+      document.getElementById("name").value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("message").value = "";
+      console.log(res);
+      alert("your message sent successfully!!");
+    })
+    .catch((err) => console.log(err));
+}

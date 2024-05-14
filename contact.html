@@ -95,17 +95,6 @@
                   <p class="help-block text-danger"></p>
                 </div>
                 <div class="control-group">
-                  <input
-                    type="text"
-                    class="form-control border-0 p-4"
-                    id="subject"
-                    placeholder="Subject"
-                    required="required"
-                    data-validation-required-message="Please enter a subject"
-                  />
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="control-group">
                   <textarea
                     class="form-control border-0 py-3 px-4"
                     rows="5"
@@ -121,6 +110,7 @@
                     class="btn btn-primary py-3 px-5"
                     type="submit"
                     id="sendMessageButton"
+                    onclick="sendMail()"
                   >
                     Send Message
                   </button>
@@ -148,11 +138,18 @@
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-    <!-- Contact Javascript File -->
-    <!-- smtp.js mail service -->
-    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
-    <!-- <script src="mail/jqBootstrapValidation.min.js"></script> -->
-    <!-- <script src="mail/contact.js"></script> -->
+    <!-- emailjs -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "jdZLXY90uJTKSro25",
+        });
+      })();
+    </script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
