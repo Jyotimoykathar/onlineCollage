@@ -71,12 +71,20 @@
           <div class="col-lg-8">
             <div class="contact-form bg-secondary rounded p-5">
               <div id="success"></div>
-              <form name="sentMessage" id="contactForm" novalidate="novalidate">
+              <form
+                name="sentMessage"
+                id="contactForm"
+                novalidate="novalidate"
+                method="POST"
+                data-netlify="true"
+                onsubmit="submit"
+              >
                 <div class="control-group">
                   <input
                     type="text"
                     class="form-control border-0 p-4"
                     id="name"
+                    name="name"
                     placeholder="Your Name"
                     required="required"
                     data-validation-required-message="Please enter your name"
@@ -88,6 +96,7 @@
                     type="email"
                     class="form-control border-0 p-4"
                     id="email"
+                    name="email"
                     placeholder="Your Email"
                     required="required"
                     data-validation-required-message="Please enter your email"
@@ -109,7 +118,7 @@
                   <button
                     class="btn btn-primary py-3 px-5"
                     id="sendMessageButton"
-                    onclick="sendMail()"
+                    onsubmit="sendMail()"
                   >
                     Send Message
                   </button>
@@ -151,7 +160,7 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
     <script src="./headerfooter.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

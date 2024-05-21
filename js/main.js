@@ -44,24 +44,25 @@
 })(jQuery);
 
 // email service
-function sendMail() {
-  let params = {
-    name: document.getElementById("name").value,
-    email: document.getElementById("email").value,
-    message: document.getElementById("message").value,
-  };
 
-  const serviceID = "service_bjbl52r";
-  const templateID = "template_7boeaqr";
+// function sendMail() {
+//   let params = {
+//     name: document.getElementById("name").value,
+//     email: document.getElementById("email").value,
+//     message: document.getElementById("message").value,
+//   };
 
-  emailjs
-    .send(serviceID, templateID, params)
-    .then((res) => {
-      document.getElementById("name").value = "";
-      document.getElementById("email").value = "";
-      document.getElementById("message").value = "";
-      console.log(res);
-      alert("your message sent successfully!!");
-    })
-    .catch((err) => console.log(err));
-}
+//   const serviceID = "service_bjbl52r";
+//   const templateID = "template_7boeaqr";
+
+//   emailjs
+//     .send(serviceID, templateID, params)
+//     .then((res) => {
+//       document.getElementById("name").value = "";
+//       document.getElementById("email").value = "";
+//       document.getElementById("message").value = "";
+//       console.log(res);
+//       alert("your message sent successfully!!");
+//     })
+//     .catch((err) => console.log(err));
+// }
