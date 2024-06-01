@@ -10405,6 +10405,9 @@ h6,
 @media (max-width: 34em) {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.2rem;
+    gap: 1rem;
+  }
+  .gallery-item {
+    margin-bottom: 0;
   }
 }
